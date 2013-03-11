@@ -5,6 +5,7 @@ class deployinator::git {
   define deploy_repo (
     $path,
     $repo,
+    $deploy_key,
     $branch	= "master",
   )
   {
